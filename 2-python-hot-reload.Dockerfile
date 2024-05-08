@@ -11,5 +11,5 @@ RUN pip install -r requirements.txt
 # Bundle app source
 COPY gunicorn_app /app
 
-EXPOSE 8070
+EXPOSE 8080
 #CMD ["gunicorn", "--config", "./conf/gunicorn_config.py", "gunicorn_app:app"]
